@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Navigation Bar with Propdown Menu</title>
+  </head>
+  <body>
+    <header id="nav-menu" aria-label="navigation bar">
+      <div class="container">
+        <div class="nav-start">
+          <a class="logo" href="index.html">
+            <img
+              src="../dappLogoBig.png"
+              width="160"
+              height="60"
+              alt="Inc Logo"
+            />
+          </a>
+          <nav class="menu">
+            <ul class="menu-bar">
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown1"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="browse"
+                >
+                  <a href="productspage.html">Artists</a>
+                </button>
+
+              <li>
+                <button
+                  class="nav-link dropdown-btn"
+                  data-dropdown="dropdown2"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="discover"
+                >
+                  Stats
+                  
+                </button>
+
+              </li>
+              <li><a class="nav-link" href="reviews.html">Reviews</a></li>
+              <li><a class="nav-link" href="aboutus.html">About Us</a></li>
+              <li><a class="nav-link" href="checkoutpage.html"><i class="fa-solid fa-cart-shopping fa-bounce"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="nav-end">
+          <div class="right-container">
+            <form class="search" role="search">
+              <input type="search" name="search" placeholder="Search" />
+              <i class="bx bx-search" aria-hidden="true"></i>
+            </form>
+
+            <a href="#profile">
+              <div class="profile_menu">
+                <ul class="menu-bar">
+                    <li>
+                      <button class="user_log">
+                        <a href="login.html"><i class="fa fa-user" aria-hidden="false"></i></a>
+                      </button>
+                    </li>
+                </ul>
+              </div>    
+            </a>
+            <button class="btn btn-primary" ><a href="Signup.html">Create</a></button>
+          </div>
+
+          <button
+            id="hamburger"
+            aria-label="hamburger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="bx bx-menu" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+ 
+    </section>
+    
+
+    <section id="product-1" class="section-p1">
+      <h2>Best Sellers</h2>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/vale-arellano-vkMIlSf8lfg-unsplash (1).jpg" alt="">
+          <div class="description">
+            <span>Artist Name</span>
+            
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/vale-arellano-vkMIlSf8lfg-unsplash (1).jpg" alt="">
+          <div class="description">
+            <span>Artist Name</span>
+            
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/vale-arellano-vkMIlSf8lfg-unsplash (1).jpg" alt="">
+          <div class="description">
+            <span>Artist Name</span>
+            
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/vale-arellano-vkMIlSf8lfg-unsplash (1).jpg" alt="">
+          <div class="description">
+            <span>Artist Name</span>
+            
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/vale-arellano-vkMIlSf8lfg-unsplash (1).jpg" alt="">
+          <div class="description">
+            <span>Artist Name</span>
+            
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/vale-arellano-vkMIlSf8lfg-unsplash (1).jpg" alt="">
+          <div class="description">
+            <span>Artist Name</span>
+            
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/vale-arellano-vkMIlSf8lfg-unsplash (1).jpg" alt="">
+          <div class="description">
+            <span>Artist Name</span>
+            
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/vale-arellano-vkMIlSf8lfg-unsplash (1).jpg" alt="">
+          <div class="description">
+            <span>Artist Name</span>
+            
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>  
+      </div>
+    </section>
+
+    <section id="product-1" class="section-p1">
+      <h2>Top Picks</h2>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>  
+      </div>
+    </section>
+
+    <section id="product-1" class="section-p1">
+      <h2>Featured Artists</h2>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>
+  
+        <div class="pro">
+          <img src="img/martin-sanchez-eMonA5Lc6Gk-unsplash.jpg" alt="">
+          <div class="description">
+            <span>Company Name</span>
+            <h5>Product Name</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>Price</h4>
+          </div>
+          <a href="#" class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+        </div>  
+      </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4>company</h4>
+             <ul>
+               <li><a href="#">about us</a></li>
+               <li><a href="#">our services</a></li>
+               <li><a href="#">privacy policy</a></li>
+               <li><a href="#">affiliate program</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>get help</h4>
+             <ul>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">shipping</a></li>
+               <li><a href="#">returns</a></li>
+               <li><a href="#">order status</a></li>
+               <li><a href="#">payment options</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>online shop</h4>
+             <ul>
+               <li><a href="#">watch</a></li>
+               <li><a href="#">bag</a></li>
+               <li><a href="#">shoes</a></li>
+               <li><a href="#">dress</a></li>
+             </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+         </div>
+      </footer>
+   
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/cdac02a02c.js" crossorigin="anonymous"></script>
+  </body>
+</html>
